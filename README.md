@@ -8,7 +8,7 @@
 # Usage
 This package provides the `@eponym` macro, which infers the name of a keyword argument
 from the name of its value. This is best explained by example:
-```jldoctest
+```julia
 julia> using EponymKeywordSyntax
 julia> a=1; b=2
 2
