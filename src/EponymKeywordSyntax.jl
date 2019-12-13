@@ -32,7 +32,7 @@ julia> f(oh_dear_this_is_long_I_dont_want_to_write_it_twice=oh_dear_this_is_long
 true
 
 julia> a=1; b=2;
-2
+
 
 julia> f(a=a, b=b) == @eponym f(;a,b)
 true

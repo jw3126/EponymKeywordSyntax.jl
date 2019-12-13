@@ -1,6 +1,9 @@
 using Test
+using Documenter: doctest
 using EponymKeywordSyntax
 const E = EponymKeywordSyntax
+
+doctest(EponymKeywordSyntax; manual=false)
 
 @testset "@eponym" begin
     a = 1; b = 2
